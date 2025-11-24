@@ -1,0 +1,16 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  background-color: #001f3f;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: #001f3f;
+  min-height: 100vh;
+  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #001f3f;
+}
