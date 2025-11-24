@@ -93,7 +93,7 @@ function App() {
   const [destination, setDestination] = useState<string>('');
   const [date, setDate] = useState<string>('');
   const [trains, setTrains] = useState<Train[]>([]);
-  const [stations, setStations] = useState<Station[]>([]);
+  const [, setStations] = useState<Station[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [delayPredictions, setDelayPredictions] = useState<Record<string, DelayPrediction>>({});
